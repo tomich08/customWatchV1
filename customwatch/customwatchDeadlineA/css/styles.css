@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.productIMG{position:absolute;top:0px;height:450px;width:250px;}
+	.watchHead{z-index:20;position:absolute;margin:0 auto;}
+	.dialBackIMG{z-index:10;position:absolute;margin:0 auto;}
+	.bandIMG{z-index:30;position:absolute;margin:0 auto;}
+	.watchHead2{z-index:20;position:absolute;margin:0 auto;}
+	.dialBackIMG2{z-index:10;position:absolute;margin:0 auto;}
+	.bandIMG2{z-index:30;position:absolute;margin:0 auto;}
+	.watchImages{width:60%;max-width:425px;}
+	.dialBack{width:20%;max-width:200px;}
+	.stepOne{clear:both;width:30%;float:left;}
+	.stepTwo{width:30%;float:left;}
+	.stepThree{margin-top:300px;width:30%;float:left;}
+	.watchColor{width:30%;max-width:200px;float:left;}
+	.dialBack{width:15%;max-width:200px;float:left;}
+	.swatch{width:30%;max-width:162px;}
+	section{clear:both;margin-top:350px;}
+	.minicart{height:100px;}
+	
+	.gold1{display:none;}
+	.gold2{display:none;}
+	.silver1{display:none;}
+	.silver2{display:none;}
+	.black1{display:none;}
+	.black2{display:none;}
+	
+
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	/*display: inline-block;*/
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+
